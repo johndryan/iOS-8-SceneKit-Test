@@ -12,6 +12,15 @@
 		4549848B19427AD00002FA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4549848919427AD00002FA31 /* Main.storyboard */; };
 		4549848D19427AD00002FA31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4549848C19427AD00002FA31 /* Images.xcassets */; };
 		4549849919427AD00002FA31 /* SceneKitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549849819427AD00002FA31 /* SceneKitTestTests.swift */; };
+		454984A919427B820002FA31 /* earth_ambient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454984A219427B820002FA31 /* earth_ambient.jpg */; };
+		454984AA19427B820002FA31 /* earth_ambient2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 454984A319427B820002FA31 /* earth_ambient2.jpeg */; };
+		454984AB19427B820002FA31 /* earth_clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454984A419427B820002FA31 /* earth_clouds.jpg */; };
+		454984AC19427B820002FA31 /* earth_clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 454984A519427B820002FA31 /* earth_clouds.png */; };
+		454984AD19427B820002FA31 /* earth_diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454984A619427B820002FA31 /* earth_diffuse.jpg */; };
+		454984AE19427B820002FA31 /* earth_normals.png in Resources */ = {isa = PBXBuildFile; fileRef = 454984A719427B820002FA31 /* earth_normals.png */; };
+		454984AF19427B820002FA31 /* earth_specular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 454984A819427B820002FA31 /* earth_specular.jpg */; };
+		454984B219427BA10002FA31 /* CGlobeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 454984B119427BA10002FA31 /* CGlobeScene.m */; };
+		454984B719427C9C0002FA31 /* GlobeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454984B619427C9C0002FA31 /* GlobeScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,16 @@
 		4549849219427AD00002FA31 /* SceneKitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneKitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4549849719427AD00002FA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4549849819427AD00002FA31 /* SceneKitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitTestTests.swift; sourceTree = "<group>"; };
+		454984A219427B820002FA31 /* earth_ambient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_ambient.jpg; sourceTree = "<group>"; };
+		454984A319427B820002FA31 /* earth_ambient2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_ambient2.jpeg; sourceTree = "<group>"; };
+		454984A419427B820002FA31 /* earth_clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_clouds.jpg; sourceTree = "<group>"; };
+		454984A519427B820002FA31 /* earth_clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_clouds.png; sourceTree = "<group>"; };
+		454984A619427B820002FA31 /* earth_diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_diffuse.jpg; sourceTree = "<group>"; };
+		454984A719427B820002FA31 /* earth_normals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth_normals.png; sourceTree = "<group>"; };
+		454984A819427B820002FA31 /* earth_specular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_specular.jpg; sourceTree = "<group>"; };
+		454984B019427BA10002FA31 /* CGlobeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGlobeScene.h; sourceTree = "<group>"; };
+		454984B119427BA10002FA31 /* CGlobeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGlobeScene.m; sourceTree = "<group>"; };
+		454984B619427C9C0002FA31 /* GlobeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobeScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +96,17 @@
 			children = (
 				4549848519427AD00002FA31 /* AppDelegate.swift */,
 				4549848719427AD00002FA31 /* GameViewController.swift */,
+				454984B619427C9C0002FA31 /* GlobeScene.swift */,
 				4549848919427AD00002FA31 /* Main.storyboard */,
+				454984A219427B820002FA31 /* earth_ambient.jpg */,
+				454984A319427B820002FA31 /* earth_ambient2.jpeg */,
+				454984A419427B820002FA31 /* earth_clouds.jpg */,
+				454984A519427B820002FA31 /* earth_clouds.png */,
+				454984A619427B820002FA31 /* earth_diffuse.jpg */,
+				454984A719427B820002FA31 /* earth_normals.png */,
+				454984A819427B820002FA31 /* earth_specular.jpg */,
+				454984B019427BA10002FA31 /* CGlobeScene.h */,
+				454984B119427BA10002FA31 /* CGlobeScene.m */,
 				4549848C19427AD00002FA31 /* Images.xcassets */,
 				4549848319427AD00002FA31 /* Supporting Files */,
 			);
@@ -189,7 +218,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454984AC19427B820002FA31 /* earth_clouds.png in Resources */,
+				454984AF19427B820002FA31 /* earth_specular.jpg in Resources */,
+				454984AA19427B820002FA31 /* earth_ambient2.jpeg in Resources */,
+				454984A919427B820002FA31 /* earth_ambient.jpg in Resources */,
+				454984AE19427B820002FA31 /* earth_normals.png in Resources */,
+				454984AD19427B820002FA31 /* earth_diffuse.jpg in Resources */,
 				4549848B19427AD00002FA31 /* Main.storyboard in Resources */,
+				454984AB19427B820002FA31 /* earth_clouds.jpg in Resources */,
 				4549848D19427AD00002FA31 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +246,8 @@
 			files = (
 				4549848819427AD00002FA31 /* GameViewController.swift in Sources */,
 				4549848619427AD00002FA31 /* AppDelegate.swift in Sources */,
+				454984B719427C9C0002FA31 /* GlobeScene.swift in Sources */,
+				454984B219427BA10002FA31 /* CGlobeScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +365,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SceneKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SceneKitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +440,7 @@
 				4549849E19427AD00002FA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4549849F19427AD00002FA31 /* Build configuration list for PBXNativeTarget "SceneKitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +449,7 @@
 				454984A119427AD00002FA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
